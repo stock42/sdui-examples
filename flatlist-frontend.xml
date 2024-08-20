@@ -1,0 +1,22 @@
+<screen scroll="true" paddingHorizontal="16">
+  <meta>
+    <title>Home</title>
+  </meta>
+  <body>
+     <box style="padding='10'; flexDirection='row'; justifyContent='space-between'">
+      <text>Hidratar desde frontend</text>
+      <action >
+      <virtuallist id="personajes" key="{{item.id}}">
+        <listitem>
+          <box shadow="16">
+            <image uri="{{item.image}}" />
+            <text>{{item.name}}</text>
+            <text>{{item.ki}}</text>
+            <text>{{item.description}}</text>
+          </box>
+        </listitem>
+      </virtuallist>
+    </box>
+  </body>
+  <fetch uri="https://dragonball-api.com/api/characters" method="get" target="personajes" name="getCharacters" />
+</screen>

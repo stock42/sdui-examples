@@ -1,0 +1,19 @@
+<screen>
+  <body>
+    <box>
+      <flatlist
+        data="[{'id': '1', 'name': 'Goku', 'image': 'https://dragonball-api.com/characters/goku_normal.webp', 'ki': '60.000.000', 'Affiliation': 'Z Fighter'}]"
+        key="id"
+        >
+        <listitem>
+          <box shadow="16">
+            <image uri="{{item.image}}" />
+            <text>Nomre: {{item.name}}</text>
+            <text>Base KI: {{item.ki}}</text>
+            <text>Affiliation: {{item.Affiliation}}</text>
+          </box>
+        </listitem>
+      </flatlist>
+    </box>
+  </body>
+</screen>

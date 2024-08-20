@@ -1,0 +1,7 @@
+<screen>
+  <body>
+    <box>
+      <icon family="Ionicons" name="caret-back" size="24" color="#333333" />
+    </box>
+  </body>
+</screen>
