@@ -1,0 +1,7 @@
+<screen scroll="true">
+  <body>
+    <box>
+      <text style="font-size=18; color=#333333">Bienvenido a la Aplicación</text>
+    </box>
+  </body>
+</screen>

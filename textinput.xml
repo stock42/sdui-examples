@@ -1,0 +1,7 @@
+<screen>
+  <body>
+    <box>
+      <textinput value="" placeholder="Inserte su e-mail" keyboardType="email" style="borderWidth: '1'; borderColor='#000'" />
+    </box>
+  </body>
+</screen>

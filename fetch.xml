@@ -1,0 +1,4 @@
+<screen>
+  <fetch uri="https://site.com/restaurants" method="get" targetType="list" target="listRestaurant" name="getRestaurant" />
+  <fetch uri="https://site.com/restaurants" method="post" targetType="state" target="createdRestaurant" targetValue="true" />
+</screen>

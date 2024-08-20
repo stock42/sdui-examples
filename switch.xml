@@ -1,0 +1,8 @@
+<screen>
+  <body>
+    <switch defaultValue="false" color="#000000" colorfalse="#888888" colortrue="#cccccc" targetType="state" target="notifications" />
+    <switch defaultValue="false" name="sms" color="#000000" colorfalse="#888888" colortrue="#cccccc" targetType="fetch" target="saveConfig" />
+  </body>
+  <state name="notifications" defaultValue="false">
+  <fetch uri="https://site.com/saveconfig" method="post" name="saveConfig" />
+<screen>

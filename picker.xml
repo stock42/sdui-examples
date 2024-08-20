@@ -1,0 +1,8 @@
+<picker
+  value="opcion1"
+  mode="dropdown"
+>
+  <pickeritem value="opcion1">Opción 1</pickeritem>
+  <pickeritem value="opcion2">Opción 2</pickeritem>
+  <pickeritem value="opcion3">Opción 3</pickeritem>
+</picker>

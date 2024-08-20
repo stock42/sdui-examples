@@ -1,0 +1,4 @@
+<screen>
+  <device action="get" type="location" targetType="fetch" target="getRestaurant" />
+  <device action="get" type="contacts" targetType="customFunction" target="searchTheBestContact" />
+</screen>

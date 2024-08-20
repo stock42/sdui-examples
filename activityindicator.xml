@@ -1,0 +1,7 @@
+<screen>
+  <body>
+    <box>
+      <activityindicator size="large" color="#AA12FF" />
+    </box>
+  </body>
+</screen>
