@@ -1,4 +1,7 @@
 <screen>
+  <meta>
+    <title>Hola Mundo</title>
+  </meta>
   <body>
     <box>
       <text>Hola mundo</text>
