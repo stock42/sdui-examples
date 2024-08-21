@@ -1,7 +1,14 @@
 <screen scroll="true">
+  <meta>
+    <title>Componente screen</title>
+  </meta>
   <body>
     <box>
-      <text style="font-size=18; color=#333333">Bienvenido a la Aplicación</text>
+      <text style="font-size=18; color=#333333">Componente screen</text>
+      <text>Este componente es el contenedor principal de nuestra pantalla</text>
+    </box>
+    <box>
+      <link href="https://s42ui.com/reference/ui/screen/">Ver documentacion</link>
     </box>
   </body>
 </screen>
