@@ -2,9 +2,7 @@
   <meta>
     <title>Hola Mundo</title>
   </meta>
-  <body>
-    <box>
-      <text style="color: '#ffffff'; fontSize: '24'">Hola mundo</text>
-    </box>
-  </body>
+  <box>
+    <text style="color: '#ffffff'; fontSize: '24'">Hola mundo</text>
+  </box>
 </screen>

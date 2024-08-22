@@ -1,7 +1,5 @@
 <screen>
-<body>
   <box>
     <import url="https://mi-servidor.com/componentes/headerMenu.xml" />
   </box>
-</body>
 </screen>

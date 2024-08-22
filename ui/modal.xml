@@ -1,9 +1,7 @@
 <screen>
-  <body>
-    <box>
-      <action type="showModal" target="modal1" >
-    </box>
-  </body>
+  <box>
+    <action type="showModal" target="modal1" >
+  </box>
   <modal
     visible="false"
     animationType="slide"

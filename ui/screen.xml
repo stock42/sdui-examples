@@ -2,13 +2,11 @@
   <meta>
     <title>Componente screen</title>
   </meta>
-  <body>
-    <box>
-      <text style="fontSize: '18'; color: '#333333'">Componente screen</text>
-      <text>Este componente es el contenedor principal de nuestra pantalla</text>
-    </box>
-    <box style="borderWidth: '1'; borderColor: '#ccc'; borderRadius: '20'; padding: '10'; flex: 1; alignContent: 'center' ">
-      <link href="https://s42ui.com/reference/ui/screen/">Ver documentacion</link>
-    </box>
-  </body>
+  <box>
+    <text style="fontSize: '18'; color: '#333333'">Componente screen</text>
+    <text>Este componente es el contenedor principal de nuestra pantalla</text>
+  </box>
+  <box style="borderWidth: '1'; borderColor: '#ccc'; borderRadius: '20'; padding: '10'; flex: 1; alignContent: 'center' ">
+    <link href="https://s42ui.com/reference/ui/screen/">Ver documentacion</link>
+  </box>
 </screen>
