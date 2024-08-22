@@ -1,8 +1,12 @@
-<screen>
+<screen scroll="true">
   <body>
-    <box style="flex: '1' ; alignItems: 'center'; justifyContent: 'center', flexDirection: 'column'">
-      <text>Hola mundo</text>
-      <text style="color: '#cc0000'; fontSize: '24'">Hola mundo</text>
+    <box style="padding: '16'; backgroundColor: '#f0f0f0'; alignItems: 'center'; justifyContent: 'center'; flex: '1'">
+      <text 
+        style="color: '#333333'; fontFamily: 'Arial'; fontSize: '18'; fontStyle: 'italic'; fontWeight: 'bold'; lineHeight: '22'; textAlign: 'center'; textAlignVertical: 'center'; textShadowColor: '#aaaaaa'; textTransform: 'uppercase'; userSelect: 'none'; borderWidth: '2'; borderColor: '#000000'; borderRadius: '8'; padding: '10'; paddingHorizontal: '20'; paddingVertical: '15'"
+        numberOfLines="2"
+        ellipsizeMode="tail">
+        Este es un texto de prueba para verificar todas las propiedades y estilos aplicados.
+      </text>
     </box>
   </body>
 </screen>
