@@ -1,15 +1,13 @@
 <screen>
-  <body>
-    <box>
-      <action type="showModal" target="modal1" >
-    </box>
-  </body>
+  <box>
+    <action type="showModal" target="modal1" >
+  </box>
   <modal
     visible="false"
     animationType="slide"
     name="modal1"
   >
-    <box style="padding=20; backgroundColor=#fff; borderRadius=10">
+    <box style="padding:20; backgroundColor:#fff; borderRadius:10">
       <text>Contenido del Modal</text>
       <action type="showModal" target="modal1">Ocultar</action>
     </box>

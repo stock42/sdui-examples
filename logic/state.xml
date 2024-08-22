@@ -1,9 +1,7 @@
 <screen>
-  <body>
-    <box>
-      <textinput target="firstName"/>
-      <text>Hola {{firstName}}</text>
-    </box>
-  </body>
+  <box>
+    <textinput target="firstName"/>
+    <text>Hola {{firstName}}</text>
+  </box>
   <state name="firstName" defaultValue="" />
 <screen>

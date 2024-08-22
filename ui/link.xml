@@ -1,0 +1,7 @@
+<screen>
+  <box style="padding: '16'; backgroundColor: '#f0f0f0'">
+    <link to="https://www.google.com" style="color: 'blue'">
+      Visita Google
+    </link>
+  </box>
+</screen>
