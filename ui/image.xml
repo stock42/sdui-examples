@@ -1,12 +1,20 @@
-<screen>
-  <box>
-    <image
-      uri="https://github.com/stock42/sdui-examples/blob/main/assets/S42UI-1000.png?raw=true"
-      width="100"
-      height="100"
-      style="backgroundColor:'#f0f0f0'; borderWidth:'2'; borderColor:'#333333'; borderRadius:'10'; borderTopLeftRadius:'5'; borderTopRightRadius:'5'; borderBottomLeftRadius:'15'; borderBottomRightRadius:'15'; opacity:'0.8'"
-      blurRadius="2"
-      resizeMode="cover"
-    />
-  </box>
+<screen scroll="1" style="paddingHorizontal: 16">
+  <meta>
+    <title>Componenten image</title>
+  </meta>
+  <body>
+    <box style="flex: 1; alignItems: 'center'; flexDirection: 'column'; ">
+      <image
+        uri="https://github.com/stock42/sdui-examples/blob/main/assets/S42UI-1000.png?raw=true"
+        width="100"
+        height="100"
+        style="backgroundColor:'#f0f0f0'; borderWidth:'2'; borderColor:'#333333'; borderRadius:'10'; borderTopLeftRadius:'5'; borderTopRightRadius:'5'; borderBottomLeftRadius:'15'; borderBottomRightRadius:'15'; opacity:'0.8'"
+        blurRadius="2"
+        resizeMode="cover"
+      />
+    </box>
+    <box>
+      <link href="https://s42ui.com/reference/ui/image/">Ver documentación</link>
+    </box>
+  </body>
 </screen>

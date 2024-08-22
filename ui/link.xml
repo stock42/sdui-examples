@@ -1,7 +1,15 @@
-<screen>
-  <box style="padding: '16'; backgroundColor: '#f0f0f0'">
-    <link to="https://www.google.com" style="color: 'blue'">
-      Visita Google
-    </link>
-  </box>
+<screen scroll="1" style="paddingHorizontal: 16">
+  <meta>
+    <title>Componente link</title>
+  </meta>
+  <body>
+    <box style="padding: '16'; backgroundColor: '#f0f0f0'">
+      <link to="https://www.google.com">
+        Visita Google
+      </link>
+    </box>
+    <box>
+      <link href="https://s42ui.com/reference/ui/link/">Ver documentación</link>
+    </box>
+  </body>
 </screen>

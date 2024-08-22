@@ -1,8 +1,13 @@
-<screen>
+<screen scroll="" style="paddingHorizotal: 16; backgroundColor: '#333'">
   <meta>
     <title>Hola Mundo</title>
   </meta>
-  <box>
-    <text style="color: '#ffffff'; fontSize: '24'">Hola mundo</text>
-  </box>
+  <body>
+    <box>
+      <image />
+    </box>
+    <box style="flex:1; borderWidth: 1; borderColor: '#ccc'; borderRadius: 20">
+      <text style="color: '#ffffff'; fontSize: '24'">Hola mundo</text>
+    </box>
+  </body>
 </screen>

@@ -1,14 +1,22 @@
 <screen>
-  <box>
-    <icon family="Ionicons" name="md-checkmark-circle" size="48" color="#4CAF50" />
-  </box>
-  <box>
-    <icon family="AntDesign" name="star" size="40" color="#FFD700" />
-  </box>
-  <box>
-    <icon family="Entypo" name="aircraft" size="32" color="#FF5722" />
-  </box>
-  <box>
-    <icon family="FontAwesome" name="rocket" size="36" color="#3F51B5" />
-  </box>
+  <meta>
+    <title>Componenten icon</title>
+  </meta>
+  <body>
+    <box>
+      <icon family="Ionicons" name="checkmark-circle" size="48" color="#4CAF50" />
+    </box>
+    <box>
+      <icon family="AntDesign" name="star" size="40" color="#FFD700" />
+    </box>
+    <box>
+      <icon family="Entypo" name="aircraft" size="32" color="#FF5722" />
+    </box>
+    <box>
+      <icon family="FontAwesome" name="rocket" size="36" color="#3F51B5" />
+    </box>
+    <box>
+      <link href="https://s42ui.com/reference/ui/icon/">Ver documentación</link>
+    </box>
+  </body>
 </screen>

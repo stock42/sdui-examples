@@ -1,5 +1,10 @@
 <screen>
-  <box>
-    <textinput value="" placeholder="Inserte su e-mail" keyboardType="email" style="borderWidth: '1'; borderColor='#000'" />
-  </box>
+  <meta>
+    <title>Componenten textinput</title>
+  </meta>
+  <body>
+    <box>
+      <textinput value="" placeholder="Inserte su e-mail" keyboardType="email" style="borderWidth: '1'; borderColor='#000'" />
+    </box>
+  </body>
 </screen>

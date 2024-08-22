@@ -1,8 +1,18 @@
 <screen>
-  <box>
-    <switch defaultValue="false" color="#000000" colorfalse="#888888" colortrue="#cccccc" targetType="state" target="notifications" />
-    <switch defaultValue="false" name="sms" color="#000000" colorfalse="#888888" colortrue="#cccccc" targetType="fetch" target="saveConfig" />
-  </box>
+  <meta>
+    <title>Componente switch</title>
+  </meta>
+  <body scroll="1" style="paddingHorizontal: 16">
+    <box>
+      <switch defaultValue="false" color="#000000" colorfalse="#888888" colortrue="#cccccc" targetType="state" target="notifications" />
+      <switch defaultValue="false" name="sms" color="#000000" colorfalse="#888888" colortrue="#cccccc" targetType="fetch" target="saveConfig" />
+    </box>
+  </body>
+  <footer>
+    <box>
+      <link href="https://s42ui.com/reference/ui/switch/">Ver documentación</link>
+    </box>
+  </footer>
   <state name="notifications" defaultValue="false">
   <fetch uri="https://site.com/saveconfig" method="post" name="saveConfig" />
 <screen>
