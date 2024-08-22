@@ -1,21 +1,30 @@
 <screen>
-  <body>
-    <list name="listRestaurants">
-    <listitem>
-        <box shadow="24" borderWidth="1" padding="4" borderColor="transparent">
-          <link to="/restaurant.xml?id=1">
-            <text>Restaurant 1</text>
-            <image
-              uri="https://img.freepik.com/vector-gratis/restaurante-italiano-diseno-plano_23-2147560162.jpg"
-              width="120"
-              height="100"
-              style="borderWidth='0'; borderColor='#000000'; borderRadius: 20"
-              blurRadius="0"
-              resizeMode="cover"
-            />
-          </link>
+  <box style="padding='16'; backgroundColor='#f9f9f9'">
+    <list id="myList" style="backgroundColor='#ffffff'; borderWidth='1'; borderColor='#cccccc'; borderRadius='8'; padding='16'">
+      <listitem>
+        <box style="flexDirection='row'; justifyContent='space-between'; alignItems='center'; padding='10'; borderBottomWidth='1'; borderBottomColor='#dddddd'">
+          <text style="fontSize='16'; fontWeight='bold'">Item 1</text>
+          <text style="fontSize='14'; color='#888888'">Details</text>
+        </box>
+      </listitem>
+      <listitem>
+        <box style="flexDirection='row'; justifyContent='space-between'; alignItems='center'; padding='10'; borderBottomWidth='1'; borderBottomColor='#dddddd'">
+          <text style="fontSize='16'; fontWeight='bold'">Item 2</text>
+          <text style="fontSize='14'; color='#888888'">Details</text>
+        </box>
+      </listitem>
+      <listitem>
+        <box style="flexDirection='row'; justifyContent='space-between'; alignItems='center'; padding='10'; borderBottomWidth='1'; borderBottomColor='#dddddd'">
+          <text style="fontSize='16'; fontWeight='bold'">Item 3</text>
+          <text style="fontSize='14'; color='#888888'">Details</text>
+        </box>
+      </listitem>
+      <listitem>
+        <box style="flexDirection='row'; justifyContent='space-between'; alignItems='center'; padding='10'">
+          <text style="fontSize='16'; fontWeight='bold'">Item 4</text>
+          <text style="fontSize='14'; color='#888888'">Details</text>
         </box>
       </listitem>
     </list>
-  </body>
+  </box>
 </screen>
