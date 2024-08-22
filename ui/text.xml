@@ -1,6 +1,6 @@
 <screen>
   <body>
-    <box style="alignItems: 'center'; justifyContent: 'center', flexDirection: 'column'">
+    <box style="flex: '1' ; alignItems: 'center'; justifyContent: 'center', flexDirection: 'column'">
       <text>Hola mundo</text>
       <text style="color: '#cc0000'; fontSize: '24'">Hola mundo</text>
     </box>
