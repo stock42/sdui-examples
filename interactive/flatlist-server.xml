@@ -7,7 +7,7 @@
           {"id": "2", "name": "Vegeta", "image": "https://dragonball-api.com/characters/vegeta_normal.webp", "ki": "50.000.000", "Affiliation": "Z Fighter"},
           {"id": "3", "name": "Gohan", "image": "https://dragonball-api.com/characters/gohan_normal.webp", "ki": "40.000.000", "Affiliation": "Z Fighter"}
         ]' 
-        keyExtractor="id"
+        key="id"
         numColumns="1"
         style="padding=5; backgroundColor=#ffffff; borderWidth=1; borderColor=#dddddd"
       >
