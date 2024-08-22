@@ -2,7 +2,7 @@
   <meta>
     <title>Componente image</title>
   </meta>
-  <body>
+  <box>
     <image
       uri="https://github.com/stock42/sdui-examples/blob/main/assets/S42UI-1000.png?raw=true"
       width="100"
@@ -11,5 +11,5 @@
       blurRadius="10"
       resizeMode="cover"
     />
-  </body>
+  </box>
 </screen>
