@@ -1,14 +1,12 @@
 <screen>
   <box shadow="24" style="borderWidth: '1'; padding: '4'; borderColor: 'transparent'">
-    <link to="/productDetail.xml?id=2">
-      <image
-        uri="https://http2.mlstatic.com/D_NQ_NP_665877-MLA74913737478_032024-O.webp"
-        width="100"
-        height="100"
-        style="borderWidth: '0'; borderColor: '#000000'; borderRadius: '20'"
-        blurRadius="0"
-        resizeMode="cover"
-      />
-    </link>
+    <image
+      uri="https://http2.mlstatic.com/D_NQ_NP_665877-MLA74913737478_032024-O.webp"
+      width="100"
+      height="100"
+      style="borderWidth: '0'; borderColor: '#000000'; borderRadius: '20'"
+      blurRadius="0"
+      resizeMode="cover"
+    />
   </box>
 </screen>

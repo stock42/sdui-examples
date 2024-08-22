@@ -3,19 +3,23 @@
     <title>Componente text</title>
   </meta>
   <body>
-
+    <box>
       <text 
-        style="color: '#333333'; fontFamily: 'InterSemiBold'; fontSize: '18'; fontStyle: 'italic'; fontWeight: 'bold'; lineHeight: '22'; textAlign: 'center'; textAlignVertical: 'center'; textShadowColor: '#aaaaaa'; textTransform: 'uppercase'; userSelect: 'none'; borderWidth: '2'; borderColor: '#000000'; borderRadius: '8'; padding: '10'; paddingHorizontal: '20'; paddingVertical: '15'"
+        style="color: '#333333'; fontFamily: 'InterSemiBold'; fontSize: '18'; fontStyle: 'italic'; fontWeight: 'bold'; lineHeight: '22'; textAlign: '  center'; textAlignVertical: 'center'; textShadowColor: '#aaaaaa'; textTransform: 'uppercase'; userSelect: 'none'"
         numberOfLines="2"
         ellipsizeMode="tail">
         Ejemplo de Texto
       </text>
 
-    <text 
-        style="color: '#C44FCA'; fontFamily: 'InterSemiBold'; fontSize: '24';  textAlign: 'center'; textShadowColor: '#aaaaaa'; textTransform: 'uppercase'; userSelect: 'none'; borderWidth: '2'; borderColor: '#000000'; borderRadius: '8'; padding: '10'; paddingHorizontal: '20'; paddingVertical: '15'"
+      <text 
+        style="color: '#C44FCA'; fontFamily: 'InterSemiBold'; fontSize: '24';  textAlign: 'center'; textShadowColor: '#aaaaaa'; textTransform: 'uppercase'; userSelect: 'none';"
         numberOfLines="2"
         ellipsizeMode="tail">
         Este es un texto de prueba para verificar todas las propiedades y estilos aplicados.
       </text>
+    </box>
+    <box>
+      <link href="https://s42ui.com/reference/ui/text/">Ver documentación</link>
+    </box>
   </body>
 </screen>
