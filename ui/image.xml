@@ -1,7 +1,7 @@
 <screen>
   <box>
     <image
-      uri="https://github.com/stock42/sdui-examples/blob/main/assets/S42UI-1000.png?raw=true"
+      uri="https://http2.mlstatic.com/D_NQ_NP_665877-MLA74913737478_032024-O.webp"
       width="100"
       height="100"
       style="backgroundColor='#f0f0f0'; borderWidth='2'; borderColor='#333333'; borderRadius='10'; borderTopLeftRadius='5'; borderTopRightRadius='5'; borderBottomLeftRadius='15'; borderBottomRightRadius='15'; opacity='0.8'"
