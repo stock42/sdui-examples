@@ -1,4 +1,4 @@
-<screen scroll="true" style="backgroundColor: '#ccc'">
+<screen scroll="true" style="backgroundColor: '#ccc'; paddingHorizontal: 16">
   <meta>
     <title>Componente text</title>
   </meta>
@@ -22,4 +22,7 @@
       <link href="https://s42ui.com/reference/ui/text/">Ver documentación</link>
     </box>
   </body>
+  <footer>
+    
+  </footer>
 </screen>
