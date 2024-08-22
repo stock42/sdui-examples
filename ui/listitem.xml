@@ -8,7 +8,7 @@
             uri="https://img.freepik.com/vector-gratis/restaurante-italiano-diseno-plano_23-2147560162.jpg"
             width="120"
             height="100"
-            style="borderWidth='0'; borderColor='#000000'; borderRadius: 20"
+            style="borderWidth:'0'; borderColor='#000000'; borderRadius: 20"
             blurRadius="0"
             resizeMode="cover"
           />

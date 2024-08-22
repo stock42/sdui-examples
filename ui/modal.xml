@@ -7,7 +7,7 @@
     animationType="slide"
     name="modal1"
   >
-    <box style="padding=20; backgroundColor=#fff; borderRadius=10">
+    <box style="padding:20; backgroundColor:#fff; borderRadius:10">
       <text>Contenido del Modal</text>
       <action type="showModal" target="modal1">Ocultar</action>
     </box>
