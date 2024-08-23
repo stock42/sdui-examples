@@ -2,9 +2,13 @@
   <meta>
     <title>Componenten textinput</title>
   </meta>
-  <body>
+  <body scroll="true" style="paddingHorizontal: 16; backgroundColor: '#ccc'">
     <box>
       <textinput value="" placeholder="Inserte su e-mail" keyboardType="email" style="borderWidth: '1'; borderColor='#000'" />
     </box>
   </body>
+  <footer>
+    <import url="https://raw.githubusercontent.com/stock42/sdui-examples/main/custom/footer.xml" />
+  </footer>
+  <state name="doculink" defaultValue="https://s42ui.com/reference/ui/textinput/" />
 </screen>

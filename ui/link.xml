@@ -1,15 +1,16 @@
-<screen scroll="1" style="paddingHorizontal: 16">
+<screen>
   <meta>
     <title>Componente link</title>
   </meta>
-  <body>
+  <body scroll="true" style="paddingHorizontal: 16; backgroundColor: '#ccc'">
     <box style="padding: '16'; backgroundColor: '#f0f0f0'">
       <link to="https://www.google.com">
         Visita Google
       </link>
     </box>
-    <box>
-      <link href="https://s42ui.com/reference/ui/link/">Ver documentación</link>
-    </box>
   </body>
+  <footer>
+    <import url="https://raw.githubusercontent.com/stock42/sdui-examples/main/custom/footer.xml" />
+  </footer>
+  <state name="doculink" defaultValue="https://s42ui.com/reference/ui/link/" />
 </screen>

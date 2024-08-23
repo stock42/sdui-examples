@@ -1,19 +1,30 @@
 <screen>
-  <list name="listRestaurants">
-  <listitem>
-      <box shadow="24" borderWidth="1" padding="4" borderColor="transparent">
-        <link to="/restaurant.xml?id=1">
-          <text>Restaurant 1</text>
-          <image
-            uri="https://img.freepik.com/vector-gratis/restaurante-italiano-diseno-plano_23-2147560162.jpg"
-            width="120"
-            height="100"
-            style="borderWidth:'0'; borderColor='#000000'; borderRadius: 20"
-            blurRadius="0"
-            resizeMode="cover"
-          />
-        </link>
-      </box>
-    </listitem>
-  </list>
+  <meta>
+    <title>Componente listitem</title>
+  </meta>
+  <body scroll="true" style="paddingHorizontal: 16; backgroundColor: '#ccc'">
+    <box>
+      <list name="listRestaurants">
+      <listitem>
+          <box shadow="24" borderWidth="1" padding="4" borderColor="transparent">
+            <link to="/restaurant.xml?id=1">
+              <text>Restaurant 1</text>
+              <image
+                uri="https://img.freepik.com/vector-gratis/restaurante-italiano-diseno-plano_23-2147560162.jpg"
+                width="120"
+                height="100"
+                style="borderWidth:'0'; borderColor='#000000'; borderRadius: 20"
+                blurRadius="0"
+                resizeMode="cover"
+              />
+            </link>
+          </box>
+        </listitem>
+      </list>
+    </box>
+  </body>
+  <footer>
+    <import url="https://raw.githubusercontent.com/stock42/sdui-examples/main/custom/footer.xml" />
+  </footer>
+  <state name="doculink" defaultValue="https://s42ui.com/reference/ui/listitem/" />
 </screen>

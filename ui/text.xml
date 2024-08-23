@@ -1,8 +1,8 @@
-<screen scroll="true" style="backgroundColor: '#ccc'; paddingHorizontal: 16">
+<screen >
   <meta>
     <title>Componente text</title>
   </meta>
-  <body>
+  <body scroll="true" style="paddingHorizontal: 16; backgroundColor: '#ccc'">
     <box>
       <text 
         style="color: '#333333'; fontFamily: 'InterSemiBold'; fontSize: '18'; fontStyle: 'italic'; fontWeight: 'bold'; lineHeight: '22'; textAlign: '  center'; textAlignVertical: 'center'; textShadowColor: '#aaaaaa'; textTransform: 'uppercase'; userSelect: 'none'"
@@ -18,11 +18,9 @@
         Este es un texto de prueba para verificar todas las propiedades y estilos aplicados.
       </text>
     </box>
-    <box>
-      <link href="https://s42ui.com/reference/ui/text/">Ver documentación</link>
-    </box>
   </body>
-  <footer>
-    
+   <footer>
+    <import url="https://raw.githubusercontent.com/stock42/sdui-examples/main/custom/footer.xml" />
   </footer>
+  <state name="doculink" defaultValue="https://s42ui.com/reference/ui/text/" />
 </screen>

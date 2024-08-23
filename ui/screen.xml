@@ -1,14 +1,15 @@
-<screen scroll="true">
+<screen>
   <meta>
     <title>Componente screen</title>
   </meta>
-  <body>
+  <body scroll="true" style="paddingHorizontal: 16; backgroundColor: '#ccc'">
     <box>
       <text style="fontSize: '18'; color: '#333333'">Componente screen</text>
       <text>Este componente es el contenedor principal de nuestra pantalla</text>
     </box>
-    <box style="borderWidth: '1'; borderColor: '#ccc'; borderRadius: '20'; padding: '10'; flex: 1; alignItems: 'center' ">
-      <link href="https://s42ui.com/reference/ui/screen/">Ver documentacion</link>
-    </box>
   </body>
+   <footer>
+    <import url="https://raw.githubusercontent.com/stock42/sdui-examples/main/custom/footer.xml" />
+  </footer>
+  <state name="doculink" defaultValue="https://s42ui.com/reference/ui/screen/" />
 </screen>

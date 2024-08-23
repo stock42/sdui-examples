@@ -2,7 +2,7 @@
   <meta>
     <title>Componente box</title>
   </meta>
-  <body>
+  <body scroll="true" style="paddingHorizontal: 16; backgroundColor: '#ccc'">
     <box shadow="24" style="borderWidth: '1'; padding: '16'; borderColor: 'transparent'">
       <image
         uri="https://http2.mlstatic.com/D_NQ_NP_665877-MLA74913737478_032024-O.webp"
@@ -14,4 +14,8 @@
       />
     </box>
   </body>
+  <footer>
+    <import url="https://raw.githubusercontent.com/stock42/sdui-examples/main/custom/footer.xml" />
+  </footer>
+  <state name="doculink" defaultValue="https://s42ui.com/reference/ui/box/" />
 </screen>

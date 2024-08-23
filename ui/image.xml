@@ -1,8 +1,8 @@
-<screen scroll="1" style="paddingHorizontal: 16">
+<screen>
   <meta>
     <title>Componenten image</title>
   </meta>
-  <body>
+  <body scroll="true" style="paddingHorizontal: 16; backgroundColor: '#ccc'">
     <box style="flex: 1; alignItems: 'center'; flexDirection: 'column'; ">
       <image
         uri="https://github.com/stock42/sdui-examples/blob/main/assets/S42UI-1000.png?raw=true"
@@ -13,8 +13,9 @@
         resizeMode="cover"
       />
     </box>
-    <box>
-      <link href="https://s42ui.com/reference/ui/image/">Ver documentación</link>
-    </box>
   </body>
+  <footer>
+    <import url="https://raw.githubusercontent.com/stock42/sdui-examples/main/custom/footer.xml" />
+  </footer>
+  <state name="doculink" defaultValue="https://s42ui.com/reference/ui/image/" />
 </screen>

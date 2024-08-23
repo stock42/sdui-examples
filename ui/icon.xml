@@ -2,7 +2,7 @@
   <meta>
     <title>Componenten icon</title>
   </meta>
-  <body>
+  <body scroll="true" style="paddingHorizontal: 16; backgroundColor: '#ccc'">
     <box>
       <icon family="Ionicons" name="checkmark-circle" size="48" color="#4CAF50" />
     </box>
@@ -15,8 +15,9 @@
     <box>
       <icon family="FontAwesome" name="rocket" size="36" color="#3F51B5" />
     </box>
-    <box>
-      <link href="https://s42ui.com/reference/ui/icon/">Ver documentación</link>
-    </box>
   </body>
+  <footer>
+    <import url="https://raw.githubusercontent.com/stock42/sdui-examples/main/custom/footer.xml" />
+  </footer>
+  <state name="doculink" defaultValue="https://s42ui.com/reference/ui/icon/" />
 </screen>

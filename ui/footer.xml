@@ -1,5 +1,13 @@
- <footer>
-    <box style="flex: 1; ">
-      <link href="https://s42ui.com/reference/ui/activityindicator/">Ver documentación</link>
-    </box>
-</footer>
+<scree>
+  <meta>
+    <title>Componenten footer</title>
+  </meta>
+  <body scroll="true" style="paddingHorizontal: 16; backgroundColor: '#ccc'">
+
+  </body>
+  <footer>
+      <box style="flex: 1; ">
+        <link href="https://s42ui.com/reference/ui/footer/">Ver documentación</link>
+      </box>
+  </footer>
+</screen>
